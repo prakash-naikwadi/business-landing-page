@@ -577,4 +577,13 @@ img {
   .footer-social-list {
     /* padding: 0 2.4rem; */
   }
+  .logo-div {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 22em) {
+  html {
+    font-size: 25%;
+  }
 }
