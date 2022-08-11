@@ -565,8 +565,16 @@ img {
 }
 
 @media screen and (max-width: 29em) {
+  html {
+    font-size: 45%;
+  }
+
   .statistics-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-social-list {
+    /* padding: 0 2.4rem; */
   }
 }
